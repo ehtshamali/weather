@@ -1,5 +1,3 @@
-console.log('this is client side JS')
-
 fetch('http://localhost:3000/weather?address=Lahore').then((response) => {
     response.json().then((data) => {
         console.log(data)
